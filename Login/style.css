@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(media/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    margin: 60px auto;
+    border: 5px solid #777;
+    border-radius: 10px;
+}
+
+.title img{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.title h1{
+    margin-top: 60px;
+    text-align: center;
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.input{
+    margin-top: 40px;
+}
+
+.input input{
+    width: 90%;
+    margin: 8px 17px;
+    padding: 7px;
+}
+
+.input label{
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+.submit_btn input{
+    display: block;
+    width: 30%;
+    margin: 7px auto;
+    color: #fff;
+    background: transparent;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.link a:last-child{
+    padding-left: 15px;
+}
